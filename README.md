@@ -1,1 +1,1 @@
-# RPGda0-starter-cli
+# RPGda0 Starter CLI
