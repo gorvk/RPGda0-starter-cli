@@ -12,8 +12,16 @@ import (
 func main() {
 	fmt.Println("Cloning starter project...")
 
-	cmd := exec.Command("git", "clone", "https://github.com/gorvk/RPGda0-starter.git")
+	if err := os.RemoveAll("./RPGda0-starter"); err != nil {
+		log.Fatal(err)
+	}
+
+	cmd := exec.Command("git", "clone", "--depth", "1", "https://github.com/gorvk/RPGda0-starter.git")
 	if err := cmd.Run(); err != nil {
+		log.Fatal(err)
+	}
+
+	if err := os.RemoveAll("./RPGda0-starter/.git"); err != nil {
 		log.Fatal(err)
 	}
 
@@ -73,4 +81,9 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	fmt.Println("Project created successfully !")
+	fmt.Println("Press enter to exit")
+	fmt.Scanln()
+	fmt.Println("Thank you !")
 }
