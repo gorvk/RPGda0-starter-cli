@@ -31,6 +31,11 @@ tar xf RPGda0-starter-cli_Linux_x86_64.tar.gz && sudo chmod +x ./RPGda0-starter-
 ```bash
 export PATH=$PATH:</path/to/installation/directory>
 ```
+### Instation using .zip in Windows
+- Download the suitable .zip
+- Move the download to the preffered installation directory.
+- extract the zip
+- Export path of directory in Environment variables.
 
 ## How to run the CLI
 - After the successfull installation just run following command to generate the starter project in the preferred directory.
