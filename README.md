@@ -20,7 +20,7 @@ It includes ready-to-use configurations for backend &amp; frontend integration, 
 
 ## Installation steps
 
-### Instation using .tar.gz in Linux and Mac
+### Installation using .tar.gz in Linux and Mac
 - [Download](https://github.com/gorvk/RPGda0-starter-cli/releases) the suitable .tar.gz
 - Move the download to the preffered installation directory.
 - Run following command to extract and make the executable.
@@ -31,7 +31,7 @@ tar xf RPGda0-starter-cli_Linux_x86_64.tar.gz && sudo chmod +x ./RPGda0-starter-
 ```bash
 export PATH=$PATH:</path/to/installation/directory>
 ```
-### Instation using .zip in Windows
+### Installation using .zip in Windows
 - [Download](https://github.com/gorvk/RPGda0-starter-cli/releases) the suitable .zip
 - Move the download to the preffered installation directory.
 - extract the zip
